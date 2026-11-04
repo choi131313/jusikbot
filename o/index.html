@@ -1,0 +1,7 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>주식봇 주문 열기</title>
+<body style="font-family:sans-serif;text-align:center;padding-top:30vh">
+<a id="b" style="display:inline-block;padding:24px 48px;font-size:28px;background:#2ecc71;color:#fff;border-radius:16px;text-decoration:none">앱 열기</a>
+<p id="f" style="margin-top:24px"><a id="k">(안 열리면 여기)</a></p>
+<script>var q=location.search.slice(1);var i='intent://order?'+q+'#Intent;scheme=kistrade;package=kr.kistest;end';
+document.getElementById('b').href=i;document.getElementById('k').href='kistrade://order?'+q;
+if(q)location.replace(i);</script></body></html>

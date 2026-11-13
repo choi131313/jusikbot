@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-13T10:00:00+09:00",
   "_설명": "이 파일을 고쳐서 저장소에 올리면, 주식봇 앱이 시작할 때와 시세를 조회할 때, 그리고 화면을 아래로 당길 때 기준표와 보유 수량을 다시 받아요. buyRsi나 sellRsi를 비우면 앱에 기준 없음으로 보여요. qty는 보유 수량, avg는 평단, qtyEstimated가 참이면 추정 수량으로 표시해요.",
   "products": [
     {
@@ -131,10 +131,10 @@
       "buyRsi": 30,
       "sellRsi": 55,
       "alertRsi": null,
-      "perBuy": 750000,
-      "cap": 18750000,
+      "perBuy": 500000,
+      "cap": 12500000,
       "maxBuys": 25,
-      "size": "1회 75만원 · 최대 25회"
+      "size": "1회 50만원 · 최대 25회 · 종가 LOC"
     },
     {
       "market": "US",
@@ -144,13 +144,13 @@
       "name": "아틀라시안",
       "qty": 0,
       "avg": null,
-      "buyRsi": 30,
-      "sellRsi": 55,
-      "alertRsi": null,
-      "perBuy": 500000,
-      "cap": 12500000,
-      "maxBuys": 25,
-      "size": "1회 50만원 · 최대 25회"
+      "buyRsi": null,
+      "sellRsi": null,
+      "alertRsi": 30,
+      "perBuy": null,
+      "cap": null,
+      "maxBuys": null,
+      "size": "감시만"
     },
     {
       "market": "US",

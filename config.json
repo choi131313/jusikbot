@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T10:00:00+09:00",
+  "updated": "2026-11-13T15:20:00+09:00",
   "_설명": "이 파일을 고쳐서 저장소에 올리면, 주식봇 앱이 시작할 때와 시세를 조회할 때, 그리고 화면을 아래로 당길 때 기준표와 보유 수량을 다시 받아요. buyRsi나 sellRsi를 비우면 앱에 기준 없음으로 보여요. qty는 보유 수량, avg는 평단, qtyEstimated가 참이면 추정 수량으로 표시해요.",
   "products": [
     {
@@ -38,9 +38,10 @@
       "exchange": "TKSE",
       "yahoo": "1570.T",
       "name": "NEXT FUNDS 닛케이225 레버리지",
-      "qty": 2,
+      "qty": 3,
       "qtyEstimated": true,
       "avg": null,
+      "_note": "2026-11-13 한국시간에 1주 추가 매수. 체결가는 아직 못 받아서 평단은 그대로 비워 뒀어요.",
       "buyRsi": 42,
       "sellRsi": 56,
       "alertRsi": null,
